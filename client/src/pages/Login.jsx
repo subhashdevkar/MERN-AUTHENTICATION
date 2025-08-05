@@ -37,7 +37,7 @@ const Login = () => {
   }
 
   return (
-    <div className='relative min-h-screen bg-[url("bg_img.jpg")] flex justify-center items-center'>
+    <div className='relative min-h-screen bg-[url("/bg_img.jpg")] flex justify-center items-center'>
       <img onClick={()=>navigate("/")} className='absolute top-1 cursor-pointer left-4 sm:left-6 w-36 sm:w-40' src={assets.logo} />
       <form onSubmit={(e)=>register(e)} action="" className='flex flex-col items-center bg-gradient-to-b from-[#83d2ec] to-white p-10 rounded-xl shadow-xl '>
         <h1 className='text-xl sm:text-3xl font-semibold underline mb-1'>{state==="Sign Up"?"Create Your Account":"Welcome Back!"}</h1>

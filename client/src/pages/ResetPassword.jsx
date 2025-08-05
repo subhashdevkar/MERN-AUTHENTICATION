@@ -78,7 +78,7 @@ const ResetPassword = () => {
     }
   }
   return (
-    <div className='relative min-h-screen bg-[url("bg_img.jpg")] flex justify-center items-center'>
+    <div className='relative min-h-screen bg-[url("/bg_img.jpg")] flex justify-center items-center'>
       <img onClick={()=>navigate("/")} className='absolute top-1 left-4 sm:left-6 w-36 sm:w-40' src={assets.logo} />
       {/* enter email */}
       {!isEmailSubmitted &&

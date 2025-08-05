@@ -49,7 +49,7 @@ const VerifyEmail = () => {
     }
   }
   return (
-    <div className='relative min-h-screen bg-[url("bg_img.jpg")] flex justify-center items-center'>
+    <div className='relative min-h-screen bg-[url("/bg_img.jpg")] flex justify-center items-center'>
       <img onClick={()=>navigate("/")} className='absolute top-1 left-4 sm:left-6 w-36 sm:w-40' src={assets.logo} />
       <form onSubmit={(e)=>handleVerifyEmailSubmition(e)} onPaste={(e)=>handlePasteOtp(e)} action="" className='text-center flex flex-col items-center justify-center bg-gradient-to-b from-[#83d2ec] to-white p-10 rounded-xl shadow-xl'>
         <h1 className='text-xl sm:text-2xl font-semibold mb-2'>Account Verification</h1>
