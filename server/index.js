@@ -11,7 +11,7 @@ app.use(express.json())
 const port=process.env.PORT||4500
 connectDb()
 app.use(cookieParser())
-app.use(cors({origin:"https://mern-authentication-mk0z.onrender.com",credentials:true}))
+app.use(cors({origin:"https://mern-authentication-ten.vercel.app",credentials:true}))
 
 app.use("/api/auth",authRoute)
 app.use("/api/user",userRoute)
