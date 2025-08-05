@@ -60,7 +60,7 @@ const Login = () => {
             <span onClick={() => setState("Login")} className='underline hover:text-red-500 cursor-pointer'>Login here</span>
           </p>
           : <p className='text-md mb-5'>Do not have account,
-            <span onClick={() => setState("Sign Up")} className='underline hover:text-red-500 cursor-pointer'>Sing Up here</span>
+            <span onClick={() => setState("Sign Up")} className='underline hover:text-red-500 cursor-pointer'>Sign Up here</span>
           </p>}
         <button type='submit' className='w-full cursor-pointer rounded-full px-2 py-1.5 bg-gradient-to-r text-blue-900 font-semibold from-blue-400 to-blue-200'>{state}</button>
       </form>
